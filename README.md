@@ -1,4 +1,4 @@
-# React 를 이용하여 Dapp 개발하기
+# React 를 이용하여 DApp 개발하기
 
 ## 사전 준비 사항
   * Nodejs >=6 이상 설치
