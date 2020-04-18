@@ -113,11 +113,10 @@ const abi = [
 ]
 
 export default new web3.eth.Contract(abi, address);
-~~~
+```
 
-
-
-~~~javascript
+애플리케이션 코드로 `src/App.js` 파일을 생성하여 다음의 코드를 입력합니다.
+```javascript
 import React, { Component } from 'react';
 import './App.css';
 import web3 from './web3';
@@ -196,6 +195,8 @@ class App extends Component {
 
 export default App;
 ```
+
+(Optional) 테스트를 위한 임시 스타일로 `App.css` 파일에 다음의 코드를 입력하여 스타일을 추가합니다.
 
 ```javascript
 button {
@@ -285,3 +286,10 @@ button[disabled], button[disabled]:hover, button[disabled]:active{
   margin-left: 10px;
 }
 ```
+
+코드 추가가 완료되었으면 다음의 명령을 실행해서 애플리케이션을 테스트합니다.
+```shell
+npm start
+```
+
+![](./images/application.png)
