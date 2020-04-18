@@ -12,7 +12,7 @@
 * ABI 정보
 ![](./images/abi_info.png)
 
-## React 설치
+## React 설치 및 초기 설정
 React 설치 후 프로젝트를 생성합니다. 
 
 ```shell
@@ -35,6 +35,7 @@ cd ../
 npm install --save web3@1.0.0-beta.26
 ```
 
+## 애플리케이션 코드 추가
 `Web3` 초기화 및 접속을 위해서 `src/web3.js` 파일 생성 후 다음의 코드를 입력합니다.
 
 > HttpProvider의 IP 주소는 접속하고자 하는 노드의 주소입니다.   
