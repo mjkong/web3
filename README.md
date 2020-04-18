@@ -16,7 +16,7 @@
 React 설치 후 프로젝트를 생성합니다. 
 
 ```shell
-npm install -g create-react-app
+sudo npm install -g create-react-app
 create-react-app helloworld_app
 
 cd helloworld_app
